@@ -9,7 +9,7 @@
             Util.WriteDebug("Function End");
             Util.Spacer();
         }
-
+ 
         private static bool Solution1(string str1, string str2)
         {
             const int ENGLISH_ALPHABETS = 26; 

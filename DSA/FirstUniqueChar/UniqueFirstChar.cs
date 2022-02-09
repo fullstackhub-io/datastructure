@@ -1,4 +1,4 @@
-﻿namespace FirstUniqueChar
+﻿ namespace FirstUniqueChar
 {
     internal static class UniqueFirstChar
     {

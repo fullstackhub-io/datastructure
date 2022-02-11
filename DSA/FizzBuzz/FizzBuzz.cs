@@ -7,7 +7,6 @@ namespace FizzBuzz
         public static void ExecFizzBuzz(int n)
         {
             Util.WriteDebug("Function Start");
-            Util.WriteDebug("Problem is attached as JPG");
             Util.WriteResult($"Result {string.Join(",", Solution1(n))}");
             Util.WriteDebug("Function End");
             Util.Spacer();

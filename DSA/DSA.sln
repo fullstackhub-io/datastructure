@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Util", "Util\Util.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstUniqueChar", "FirstUniqueChar\FirstUniqueChar.csproj", "{282D893B-4352-4DAF-859C-7537112E39EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestTimeBuyStock", "BestTimeBuyStock\BestTimeBuyStock.csproj", "{CB2421DC-487B-474C-BB94-B47BD6C70E9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BestTimeBuyStock", "BestTimeBuyStock\BestTimeBuyStock.csproj", "{CB2421DC-487B-474C-BB94-B47BD6C70E9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuplicateItemInArray", "DuplicateItemInArray\DuplicateItemInArray.csproj", "{82F93908-1655-4043-9EB3-2215733BA863}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{E7998DB8-3C37-46C0-8ED6-67DA2D484B2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{CB2421DC-487B-474C-BB94-B47BD6C70E9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB2421DC-487B-474C-BB94-B47BD6C70E9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB2421DC-487B-474C-BB94-B47BD6C70E9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82F93908-1655-4043-9EB3-2215733BA863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82F93908-1655-4043-9EB3-2215733BA863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82F93908-1655-4043-9EB3-2215733BA863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82F93908-1655-4043-9EB3-2215733BA863}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7998DB8-3C37-46C0-8ED6-67DA2D484B2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7998DB8-3C37-46C0-8ED6-67DA2D484B2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7998DB8-3C37-46C0-8ED6-67DA2D484B2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7998DB8-3C37-46C0-8ED6-67DA2D484B2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

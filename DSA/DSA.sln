@@ -3,29 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringAnagram", "StringAnagram\StringAnagram.csproj", "{04EB9A8F-3E8F-49B1-87EE-7911E3B4E0CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9_StringAnagram", "StringAnagram\9_StringAnagram.csproj", "{04EB9A8F-3E8F-49B1-87EE-7911E3B4E0CD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Util", "Util\Util.csproj", "{870730E8-70E0-4CB0-88EE-36BCFB226343}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_Util", "Util\11_Util.csproj", "{870730E8-70E0-4CB0-88EE-36BCFB226343}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstUniqueChar", "FirstUniqueChar\FirstUniqueChar.csproj", "{282D893B-4352-4DAF-859C-7537112E39EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_FirstUniqueChar", "FirstUniqueChar\5_FirstUniqueChar.csproj", "{282D893B-4352-4DAF-859C-7537112E39EF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BestTimeBuyStock", "BestTimeBuyStock\BestTimeBuyStock.csproj", "{CB2421DC-487B-474C-BB94-B47BD6C70E9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1_BestTimeBuyStock", "BestTimeBuyStock\1_BestTimeBuyStock.csproj", "{CB2421DC-487B-474C-BB94-B47BD6C70E9F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DuplicateItemInArray", "DuplicateItemInArray\DuplicateItemInArray.csproj", "{82F93908-1655-4043-9EB3-2215733BA863}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2_DuplicateItemInArray", "DuplicateItemInArray\2_DuplicateItemInArray.csproj", "{82F93908-1655-4043-9EB3-2215733BA863}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{E7998DB8-3C37-46C0-8ED6-67DA2D484B2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6_FizzBuzz", "FizzBuzz\6_FizzBuzz.csproj", "{E7998DB8-3C37-46C0-8ED6-67DA2D484B2B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidParentheses", "ValidParentheses\ValidParentheses.csproj", "{8E61AF34-5766-41D6-95CE-17F1273D34FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12_ValidParentheses", "ValidParentheses\12_ValidParentheses.csproj", "{8E61AF34-5766-41D6-95CE-17F1273D34FD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstNonRepeatingSingleNum", "FirstNonRepeatingSingleNum\FirstNonRepeatingSingleNum.csproj", "{B13DF820-E6EB-458E-B80E-F5BBB13DAC44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_FirstNonRepeatingSingleNum", "FirstNonRepeatingSingleNum\4_FirstNonRepeatingSingleNum.csproj", "{B13DF820-E6EB-458E-B80E-F5BBB13DAC44}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerofTwo", "PowerofTwo\PowerofTwo.csproj", "{7766169B-2EC0-4FFF-A16B-F8844E3591D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8_PowerofTwo", "PowerofTwo\8_PowerofTwo.csproj", "{7766169B-2EC0-4FFF-A16B-F8844E3591D4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberOfIslands", "NumberOfIslands\NumberOfIslands.csproj", "{226E97A6-2ED5-48D7-9FD0-F747763FA934}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7_NumberOfIslands", "NumberOfIslands\7_NumberOfIslands.csproj", "{226E97A6-2ED5-48D7-9FD0-F747763FA934}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindPeakElement", "FindPeakElement\FindPeakElement.csproj", "{35A6E7F6-603A-480F-B73D-CA33C36A7991}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_FindPeakElement", "FindPeakElement\3_FindPeakElement.csproj", "{35A6E7F6-603A-480F-B73D-CA33C36A7991}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "TwoSum\TwoSum.csproj", "{20E9D054-87BD-4E18-9C33-F8553EDE5143}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_TwoSum", "TwoSum\10_TwoSum.csproj", "{20E9D054-87BD-4E18-9C33-F8553EDE5143}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_BackspaceStrCompr", "BackspaceStrCompr\13_BackspaceStrCompr.csproj", "{9CC29135-05D5-4521-9EA9-E7482CC4BAD9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{20E9D054-87BD-4E18-9C33-F8553EDE5143}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20E9D054-87BD-4E18-9C33-F8553EDE5143}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20E9D054-87BD-4E18-9C33-F8553EDE5143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CC29135-05D5-4521-9EA9-E7482CC4BAD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CC29135-05D5-4521-9EA9-E7482CC4BAD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CC29135-05D5-4521-9EA9-E7482CC4BAD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CC29135-05D5-4521-9EA9-E7482CC4BAD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

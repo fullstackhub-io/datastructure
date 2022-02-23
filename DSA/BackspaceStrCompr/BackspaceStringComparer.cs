@@ -27,7 +27,7 @@ namespace BackspaceStrCompr
         public static void GetBackspaceStrCompr(string str1, string str2)
         {
             Util.WriteDebug("Function Start");
-            Util.WriteResult($"Is two string equal: { Solution1(str1, str2)}");
+            Util.WriteResult($"Are two strings \"{str1}\" & \"{str1}\" after backspacing equal: { Solution1(str1, str2)}");
             Util.WriteDebug("Function End");
             Util.Spacer();
         }

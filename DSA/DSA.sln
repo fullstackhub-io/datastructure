@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_FindPeakElement", "FindPe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_TwoSum", "TwoSum\10_TwoSum.csproj", "{20E9D054-87BD-4E18-9C33-F8553EDE5143}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_BackspaceStrCompr", "BackspaceStrCompr\13_BackspaceStrCompr.csproj", "{9CC29135-05D5-4521-9EA9-E7482CC4BAD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13_BackspaceStrCompr", "BackspaceStrCompr\13_BackspaceStrCompr.csproj", "{9CC29135-05D5-4521-9EA9-E7482CC4BAD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_MoveZeros", "MoveZeros\14_MoveZeros.csproj", "{AB9974B4-29E6-4BC4-9BBC-DAA7EA7789A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{9CC29135-05D5-4521-9EA9-E7482CC4BAD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CC29135-05D5-4521-9EA9-E7482CC4BAD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CC29135-05D5-4521-9EA9-E7482CC4BAD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB9974B4-29E6-4BC4-9BBC-DAA7EA7789A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB9974B4-29E6-4BC4-9BBC-DAA7EA7789A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB9974B4-29E6-4BC4-9BBC-DAA7EA7789A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB9974B4-29E6-4BC4-9BBC-DAA7EA7789A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

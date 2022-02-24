@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9_StringAnagram", "StringAnagram\9_StringAnagram.csproj", "{04EB9A8F-3E8F-49B1-87EE-7911E3B4E0CD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_Util", "Util\11_Util.csproj", "{870730E8-70E0-4CB0-88EE-36BCFB226343}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Util", "Util\Util.csproj", "{870730E8-70E0-4CB0-88EE-36BCFB226343}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_FirstUniqueChar", "FirstUniqueChar\5_FirstUniqueChar.csproj", "{282D893B-4352-4DAF-859C-7537112E39EF}"
 EndProject
@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_TwoSum", "TwoSum\10_TwoS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13_BackspaceStrCompr", "BackspaceStrCompr\13_BackspaceStrCompr.csproj", "{9CC29135-05D5-4521-9EA9-E7482CC4BAD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_MoveZeros", "MoveZeros\14_MoveZeros.csproj", "{AB9974B4-29E6-4BC4-9BBC-DAA7EA7789A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14_MoveZeros", "MoveZeros\14_MoveZeros.csproj", "{AB9974B4-29E6-4BC4-9BBC-DAA7EA7789A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_ReverseInt", "ReverseInt\11_ReverseInt.csproj", "{E0A200A1-66FB-41A3-AE2F-31A1BF7B9811}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{AB9974B4-29E6-4BC4-9BBC-DAA7EA7789A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB9974B4-29E6-4BC4-9BBC-DAA7EA7789A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB9974B4-29E6-4BC4-9BBC-DAA7EA7789A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0A200A1-66FB-41A3-AE2F-31A1BF7B9811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0A200A1-66FB-41A3-AE2F-31A1BF7B9811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0A200A1-66FB-41A3-AE2F-31A1BF7B9811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0A200A1-66FB-41A3-AE2F-31A1BF7B9811}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

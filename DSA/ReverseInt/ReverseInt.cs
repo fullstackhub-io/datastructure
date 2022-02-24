@@ -3,7 +3,6 @@
 //Assume the environment does not allow you to store 64-bit integers (signed or unsigned).
 
 
-
 //Example 1:
 
 //Input: x = 123
@@ -43,11 +42,11 @@ namespace ReverseInt
 
             while (num > 0)
             {
-                Util.WriteDebug($"reversedInt: ({reversedInt} * 10) + ({num} % 10): {(reversedInt * 10) + (num % 10)}");
+                Util.WriteDebug($"reversedInt: ({reversedInt} * 10) + ({num} % 10) = {(reversedInt * 10) + (num % 10)}");
                 reversedInt = (reversedInt * 10) + (num % 10);
                 int logNum = num;
                 num /= 10;
-                Util.WriteDebug($"num: {logNum} /= 10 = {num}");
+                Util.WriteDebug($"num: {logNum}: {logNum} / 10 = {num}");
             }
 
             if (reversedInt > int.MaxValue)

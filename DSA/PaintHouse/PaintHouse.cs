@@ -16,7 +16,6 @@ namespace PaintHouse
             Util.WriteResult($"The total cost is = '{Solution1(cost)}'");
             Util.WriteDebug("Function End");
             Util.Spacer();
-
         }
 
         private static int Solution1(int[][] cost)

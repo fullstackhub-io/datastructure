@@ -41,7 +41,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17_SimpleBinarySearch", "Si
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "18_PaintHouse", "PaintHouse\18_PaintHouse.csproj", "{EE11EFDA-7663-47E6-B0CA-903F31EB0C8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19_RobotReturnOrigin", "RobotReturnOrigin\19_RobotReturnOrigin.csproj", "{2AEF43D2-A331-449E-9DDF-5D28C323F946}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19_RobotReturnOrigin", "RobotReturnOrigin\19_RobotReturnOrigin.csproj", "{2AEF43D2-A331-449E-9DDF-5D28C323F946}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20_ContainsDuplicateII", "ContainsDuplicateII\20_ContainsDuplicateII.csproj", "{6EE438B8-38D0-49AF-A904-08F011A4566D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{2AEF43D2-A331-449E-9DDF-5D28C323F946}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AEF43D2-A331-449E-9DDF-5D28C323F946}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AEF43D2-A331-449E-9DDF-5D28C323F946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EE438B8-38D0-49AF-A904-08F011A4566D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EE438B8-38D0-49AF-A904-08F011A4566D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EE438B8-38D0-49AF-A904-08F011A4566D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EE438B8-38D0-49AF-A904-08F011A4566D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

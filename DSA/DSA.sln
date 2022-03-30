@@ -45,6 +45,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19_RobotReturnOrigin", "Rob
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20_ContainsDuplicateII", "ContainsDuplicateII\20_ContainsDuplicateII.csproj", "{6EE438B8-38D0-49AF-A904-08F011A4566D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21_FindDifference", "FindDifference\21_FindDifference.csproj", "{CF85F611-1ADE-4E15-AADB-1571FB102272}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{6EE438B8-38D0-49AF-A904-08F011A4566D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EE438B8-38D0-49AF-A904-08F011A4566D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EE438B8-38D0-49AF-A904-08F011A4566D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF85F611-1ADE-4E15-AADB-1571FB102272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF85F611-1ADE-4E15-AADB-1571FB102272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF85F611-1ADE-4E15-AADB-1571FB102272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF85F611-1ADE-4E15-AADB-1571FB102272}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

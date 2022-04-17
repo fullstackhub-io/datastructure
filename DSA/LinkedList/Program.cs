@@ -1,0 +1,10 @@
+﻿LinkedList.LinkedList linkedList = new LinkedList.LinkedList();
+linkedList.InsertLast(10);
+linkedList.InsertLast(20);
+linkedList.InsertLast(30);
+linkedList.InsertFirst(40);
+linkedList.Print();
+var searchItem = linkedList.IndexOf(20);
+linkedList.RemoveLast();
+linkedList.RemoveFirst();
+linkedList.Print();

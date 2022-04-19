@@ -5,7 +5,7 @@ namespace LinkedList
     {
         public int Count { get; set; }
         private Node head;
-        private Node? tail;
+        private Node tail;
 
         public void InsertLast(int value)
         {
@@ -50,9 +50,6 @@ namespace LinkedList
 
         public void RemoveLast()
         {
-            
-            
-
             if (head == null)
                 return;
 
@@ -65,7 +62,7 @@ namespace LinkedList
             }
         }
 
-        private Node GetSecondLastNode()
+        private Node? GetSecondLastNode()
         {
             var curr = head;
 
@@ -107,10 +104,7 @@ namespace LinkedList
             private readonly int value;
             public Node next;
 
-            public Node(int value)
-            {
-                this.value = value;
-            }
+            public Node(int value) => this.value = value;
 
             public int Value
             {

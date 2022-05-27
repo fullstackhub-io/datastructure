@@ -47,7 +47,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20_ContainsDuplicateII", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21_FindDifference", "FindDifference\21_FindDifference.csproj", "{CF85F611-1ADE-4E15-AADB-1571FB102272}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "LinkedList\LinkedList.csproj", "{59EF3774-EDE8-4B56-8F19-EA3FC91917DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "22_LinkedList", "LinkedList\22_LinkedList.csproj", "{59EF3774-EDE8-4B56-8F19-EA3FC91917DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23_Stack", "Stack\23_Stack.csproj", "{3945D5D8-55BA-4EB8-9B7C-9D4CAC4951F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,10 @@ Global
 		{59EF3774-EDE8-4B56-8F19-EA3FC91917DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59EF3774-EDE8-4B56-8F19-EA3FC91917DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59EF3774-EDE8-4B56-8F19-EA3FC91917DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3945D5D8-55BA-4EB8-9B7C-9D4CAC4951F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3945D5D8-55BA-4EB8-9B7C-9D4CAC4951F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3945D5D8-55BA-4EB8-9B7C-9D4CAC4951F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3945D5D8-55BA-4EB8-9B7C-9D4CAC4951F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -2,9 +2,11 @@
 linkedList.InsertLast(10);
 linkedList.InsertLast(20);
 linkedList.InsertLast(30);
-linkedList.InsertFirst(40);
-linkedList.Print();
+linkedList.InsertLast(40);
 var searchItem = linkedList.IndexOf(20);
+linkedList.Print();
+linkedList.Reverse();
+linkedList.Print();
 linkedList.RemoveLast();
 linkedList.RemoveFirst();
-linkedList.Print();
+var arr = linkedList.ConverttoArray();

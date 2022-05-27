@@ -1,4 +1,5 @@
-﻿
+﻿// Custom Linked List
+
 namespace LinkedList
 {
     public class LinkedList
@@ -23,7 +24,6 @@ namespace LinkedList
 
             Count++;
         }
-
         public void InsertFirst(int value)
         {
             Node newNode = new(value);
@@ -45,9 +45,8 @@ namespace LinkedList
             // 12-> 30 -> 40
 
             head = head.next;
-
+            Count--;
         }
-
         public void RemoveLast()
         {
             if (head == null)
@@ -60,13 +59,14 @@ namespace LinkedList
                 tail = GetSecondLastNode();
                 tail.next = null;
             }
-        }
 
+            Count--;
+        }
         private Node? GetSecondLastNode()
         {
             var curr = head;
 
-            while (curr != null)     
+            while (curr != null)
             {
                 if (curr.next == tail)
                     return curr;
@@ -75,7 +75,6 @@ namespace LinkedList
 
             return null;
         }
-
         public int IndexOf(int val)
         {
             var node = head;
@@ -87,8 +86,38 @@ namespace LinkedList
             }
             return -1;
         }
+        public int[] ConverttoArray()
+        {
+            var arr = new int[Count];
 
+            var curr = head;
 
+            for (int i = 0; i < Count; i++)
+            {
+                arr[i] = curr.Value;
+                curr = curr.next;
+            }
+
+            return arr;
+        }
+        public void Reverse()
+        {
+            var prev = head;
+            var curr = head.next;
+            while (curr != null)
+            {
+                var nxt = curr.next;
+                curr.next = prev;
+
+                prev = curr;
+                curr = nxt;
+            }
+
+            tail = head;
+            tail.next = null;
+            head = prev;
+
+        }
         public void Print()
         {
             var node = head;
@@ -98,7 +127,6 @@ namespace LinkedList
                 node = node.next;
             }
         }
-
         class Node
         {
             private readonly int value;

@@ -24,6 +24,7 @@ namespace LinkedList
 
             Count++;
         }
+
         public void InsertFirst(int value)
         {
             Node newNode = new(value);
@@ -40,6 +41,7 @@ namespace LinkedList
 
             Count++;
         }
+
         public void RemoveFirst()
         {
             // 12-> 30 -> 40
@@ -47,6 +49,7 @@ namespace LinkedList
             head = head.next;
             Count--;
         }
+
         public void RemoveLast()
         {
             if (head == null)
@@ -62,6 +65,7 @@ namespace LinkedList
 
             Count--;
         }
+
         private Node? GetSecondLastNode()
         {
             var curr = head;
@@ -75,6 +79,7 @@ namespace LinkedList
 
             return null;
         }
+
         public int IndexOf(int val)
         {
             var node = head;
@@ -86,6 +91,7 @@ namespace LinkedList
             }
             return -1;
         }
+
         public int[] ConverttoArray()
         {
             var arr = new int[Count];
@@ -100,10 +106,12 @@ namespace LinkedList
 
             return arr;
         }
+
         public void Reverse()
         {
             var prev = head;
             var curr = head.next;
+
             while (curr != null)
             {
                 var nxt = curr.next;
@@ -118,6 +126,7 @@ namespace LinkedList
             head = prev;
 
         }
+
         public void Print()
         {
             var node = head;
@@ -127,6 +136,7 @@ namespace LinkedList
                 node = node.next;
             }
         }
+
         class Node
         {
             private readonly int value;

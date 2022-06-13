@@ -2,7 +2,7 @@
 CustomStack.MinStack minStack = new CustomStack.MinStack(arr);
 Util.WriteDebug($"The min value in [{string.Join(",", arr)}]: {minStack.GetMinValue()}");
 
-CustomStack.BalancedExpr expression = new CustomStack.BalancedExpr();
+CustomStack.BalancedExpr expression = new();
 string expr = "(){]";
 Util.WriteDebug($"Expected: 40 Popped Element: {expression.IsBalancedExpr(expr)}");
 expr = "{[()]}";

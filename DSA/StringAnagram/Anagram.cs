@@ -27,7 +27,7 @@ namespace StringAnagram
  
         private static bool Solution1(string str1, string str2)
         {
-            const int ENGLISH_ALPHABETS = 26; 
+            const int ENGLISH_ALPHABETS = 26;
 
             Util.WriteDebug($"First Input String: {str1}");
             Util.WriteDebug($"Second Input String: {str2}");
@@ -58,7 +58,7 @@ namespace StringAnagram
                     return false;
             }
 
-           return true; 
+           return true;
 
         }
     }

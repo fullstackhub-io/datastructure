@@ -56,7 +56,9 @@ namespace LinkedList
                 return;
 
             if (Count == 1)
+            {
                 head = tail = null;
+            }
             else
             {
                 tail = GetSecondLastNode();

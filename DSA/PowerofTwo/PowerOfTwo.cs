@@ -13,7 +13,7 @@
 //Example 2:
 //Input: n = 16
 //Output: true
-//Explanation: 24 = 16
+//Explanation: 2x2x2x2 = 16
 
 //Example 3:
 //Input: n = 3

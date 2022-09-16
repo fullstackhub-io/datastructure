@@ -1,9 +1,9 @@
 ﻿namespace BinaryTree
 {
-    internal class BinaryTree
+    public class BinaryTree
     {
-        private Node root;
-        class Node
+        public Node Root { get; set; }
+        public class Node
         {
             public int Value { get; set; }
             public Node Left { get; set; }
@@ -19,14 +19,14 @@
         public void InsertRec(int item)
         {
             var node = new Node(item);
-            InsertRec(root, node);
+            InsertRec(Root, node);
         }
 
         private void InsertRec(Node curr, Node newNode)
         {
             if (curr == null)
             {
-                root = newNode;
+                Root = newNode;
                 return;
             }
             else if (curr.Left == null)
@@ -40,7 +40,7 @@
                 return;
             }
 
-            if (root.Value > newNode.Value)
+            if (Root.Value > newNode.Value)
                 InsertRec(curr.Left, newNode);
             else
                 InsertRec(curr.Right, newNode);
@@ -50,13 +50,13 @@
         {
             var node = new Node(item);
 
-            if (root == null)
+            if (Root == null)
             {
-                root = node;
+                Root = node;
                 return;
             }
 
-            var current = root;
+            var current = Root;
 
             while (true)
             {
@@ -83,7 +83,7 @@
 
         public void TraversePreOrder()
         {
-            TraversePreOrder(root);
+            TraversePreOrder(Root);
         }
 
         private void TraversePreOrder(Node curr)
@@ -98,7 +98,7 @@
 
         public void TraverseInOrder()
         {
-            TraverseInOrder(root);
+            TraverseInOrder(Root);
         }
 
         private void TraverseInOrder(Node curr)
@@ -113,7 +113,7 @@
 
         public void TraversePostOrder()
         {
-            TraversePostOrder(root);
+            TraversePostOrder(Root);
         }
 
         private void TraversePostOrder(Node curr)
@@ -128,7 +128,7 @@
 
         public int GetHeight()
         {
-            return GetHeight(root);
+            return GetHeight(Root);
         }
 
         private int GetHeight(Node curr)
@@ -145,6 +145,38 @@
         private bool IsLeafNode(Node node)
         {
             return node.Left == null && node.Right == null;
+        }
+
+        public bool IsEqual(BinaryTree other)
+        {
+            return IsEqual(Root, other.Root);
+        }
+
+        private bool IsEqual(Node first, Node second)
+        {
+            if (first == null && second == null)
+                return true;
+
+            return first.Value == second.Value &&
+                   IsEqual(first.Left, second.Left) &&
+                   IsEqual(first.Right, second.Right);
+        }
+
+        public bool IsBinarySearchTree()
+        {
+            return IsBinarySearchTree(Root, int.MinValue, int.MaxValue);
+        }
+
+        private bool IsBinarySearchTree(Node node, int min, int max)
+        {
+            if (node == null)
+                return true;
+
+            if (Root.Value < min && Root.Value > max)
+                return false;
+
+            return IsBinarySearchTree(Root.Left, min, Root.Value - 1) &&
+                   IsBinarySearchTree(Root.Right, Root.Value + 1, max);
         }
     }
 }
